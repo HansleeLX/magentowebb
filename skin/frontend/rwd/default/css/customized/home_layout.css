@@ -1,0 +1,324 @@
+/*
+This is setting for the division style of 'account-wrapper' which is localed at home page and any other pages except shopping page and its sub pages which need cart function.
+
+modified ： 01042017 xin li 
+*/
+.account-wrapper {
+  position: absolute;
+  top:15%;
+  right: 0px;
+}
+
+
+
+
+/*
+This is the css setting for the division of 'home_content_introduction' which is localed at home page
+
+modified ： 30032017 xin li 
+*/
+.home_content_introduction{
+    margin: 20px auto;
+    width: 1200px;
+    min-height: 150px;
+    padding: 10px;
+    position:relative;
+    background: -webkit-gradient(linear, 0% 20%, 0% 92%, from(#fff), to(#f3f3f3), color-stop(.1,#fff));
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    -webkit-border-top-left-radius: 60px 5px;
+    -webkit-border-top-right-radius: 60px 5px;
+    -webkit-border-bottom-right-radius: 60px 60px ;
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3) ;
+    
+}
+
+.home_content_introduction:before{
+    content:'';    
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+    -webkit-transform:
+    rotate(-20deg)
+    skew(-40deg,-3deg)
+    translate(-13px,-13px);
+}
+
+.home_content_introduction:after{
+    content: '';
+    z-index: -10;
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    -webkit-box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(0deg)
+                        translate(-45px,-20px)
+                           skew(20deg);
+}
+.home_content_introduction_lf{
+    width: 100px;
+    height: 100px;
+    top:0; left:0;
+    position:absolute;
+    z-index:-6;
+    display: inline-block;
+    -webkit-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(2deg)
+                        translate(20px,25px)
+                           skew(20deg);
+}
+
+.home_content_introduction_rt{
+    content: '';
+    width: 50px;
+    height: 50px;
+    top:0; right:0;
+    position:absolute;
+    display: inline-block;
+    z-index:-6;
+    -webkit-box-shadow: 10px -10px 8px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(2deg)
+                        translate(-14px,20px)
+                           skew(-20deg);
+}
+
+
+/*
+This is the css setting for the division of 'home_content_businesses' which is localed at home page
+
+modified ： 31032017 xin li 
+*/
+
+.home_businesses_block {
+	width:1200px;
+	height:auto;
+	min-height:350px;
+	
+}
+
+.home_businesses {
+	float:left;
+	width: 395px;
+	height:auto;	
+}
+
+
+.home_content_businesses{
+    margin: 10px auto;
+    width: 300px;
+    min-height: 310px;
+    padding: 10px;
+    position:relative;
+    background: -webkit-gradient(linear, 100% 100%, 50% 10%, from(#fff), to(#f3f3f3), color-stop(.1,#fff));
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 1px 1px 4px rgba(0,0,0, 0.1);
+    -webkit-border-bottom-right-radius: 60px 5px;
+    
+}
+
+.home_content_businesses:before{
+    content: '';
+    width: 98%;
+    z-index:-1;
+    height: 100%;
+    padding: 0 0 1px 0;
+    position: absolute;
+    bottom:0; right:0;
+    background: -webkit-gradient(linear, 0% 20%, 0% 92%, from(#fff), to(#f9f9f9), color-stop(.1,#fff));
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 1px 1px 8px rgba(0,0,0, 0.1);
+    -webkit-border-bottom-right-radius: 60px 5px;
+    -webkit-transform: skew(2deg,2deg)
+                        translate(3px,8px)
+}
+.home_content_businesses:after{
+    content: '';
+    width: 98%;
+    z-index:-1;
+    height: 98%;
+    padding: 0 0 1px 0;
+    position: absolute;
+    bottom:0; right:0;
+    background: -webkit-gradient(linear, 0% 20%, 0% 100%, from(#f3f3f3), to(#f6f6f6), color-stop(.1,#fff));
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 0px 0px 8px rgba(0,0,0, 0.1);
+    -webkit-transform: skew(2deg,2deg)
+                        translate(-1px,2px)
+}
+
+.home_content_businesses_ribbon{
+    position:absolute;
+    top:0; left: 0;
+    width: 130px;
+    height: 40px;
+    background: -webkit-gradient(linear, 555% 20%, 0% 92%, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.0)), color-stop(.1,rgba(0, 0, 0, 0.2)));
+    border-left: 1px dashed rgba(0, 0, 0, 0.1);
+    border-right: 1px dashed rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(-30deg) skew(0,0) translate(-30px,-20px);
+}
+
+.home_content_businesses img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+/*
+This is the css setting for the division of 'home_content_news' which is localed at home page
+
+modified ： 31032017 xin li 
+*/
+
+.home_news {
+	width:1200px;
+	height:auto;
+	
+}
+
+.home_content_news{
+    margin: 20px auto;
+    width: 1150px;
+    min-height: 150px;
+    padding: 10px 10px 30px 10px;
+    position:relative;
+    background: -webkit-gradient(linear, 0% 20%, 0% 92%, from(#fff), to(#f3f3f3), color-stop(.1,#fff));
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    -webkit-border-top-left-radius: 60px 5px;
+    -webkit-border-top-right-radius: 60px 5px;
+    -webkit-border-bottom-right-radius: 60px 60px ;
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3) ;
+    
+}
+
+.home_content_news:before{
+    content:'';    
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+    -webkit-transform:
+    rotate(-20deg)
+    skew(-40deg,-3deg)
+    translate(-13px,-13px);
+}
+
+.home_content_news:after{
+    content: '';
+    z-index: -10;
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    -webkit-box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(0deg)
+                        translate(-45px,-20px)
+                           skew(20deg);
+}
+.home_content_news_lf{
+    width: 100px;
+    height: 100px;
+    top:0; left:0;
+    position:absolute;
+    z-index:-6;
+    display: inline-block;
+    -webkit-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(2deg)
+                        translate(20px,25px)
+                           skew(20deg);
+}
+
+.home_content_news_rt{
+    content: '';
+    width: 50px;
+    height: 50px;
+    top:0; right:0;
+    position:absolute;
+    display: inline-block;
+    z-index:-6;
+    -webkit-box-shadow: 10px -10px 8px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(2deg)
+                        translate(-14px,20px)
+                           skew(-20deg);
+}
+
+/*
+This is the css setting for the list of 'home_content_news' which is localed at home page
+
+modified ： 31032017 xin li 
+*/
+
+ol {
+	counter-reset: li; /* 初始化计数器 */
+    list-style: none; /* 移除浏览器默认编号 */
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+ol ol{
+    margin: 0 0 0 2em; /*为内部有序列表设置左外边距值 */
+}
+
+.rounded-list a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;	
+}
+
+.rounded-list a:hover{
+    background: #eee;
+}
+
+.rounded-list a:hover:before{
+    transform: rotate(360deg);	
+}
+
+.rounded-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;	
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+/*
+This is the css setting for the division of 'home_footer' which is localed at home page
+
+modified ： 31032017 xin li 
+*/
+

@@ -1,0 +1,28 @@
+/*
+This is the css setting for the division of 'category_introduction' & 'category_link' which is localed at home page
+
+modified : 01042017 xin li 
+*/
+.category_introduction {
+	width:70%;
+	float:left;
+}
+
+.category_link {
+	width:29%;
+	float:left;
+	height:99%;
+}
+
+.category_study_link {
+	width:29%;
+	float:left;
+	min-height:99%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:10%;
+}
+
+.category_link_prag {
+	text-align:center;
+}
